@@ -1,0 +1,181 @@
+/* CSS for Google Homepage Project */
+
+body {
+    margin: auto;
+}
+
+/* NAVBAR */
+
+ul {
+    list-style-type: none;   
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.navbar a {
+    color: rgb(68, 68, 68);
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+}
+
+.navbar {
+    position: relative;
+    padding: 15px;
+    font-size: 14px;
+    font-family: "arial" sans-serif;
+}
+
+.navbar li {
+    display: inline;
+    padding: 9px;
+}
+
+.tleft {
+    position: absolute;
+    top: -9px;
+    left: 5px;
+    padding: 15px; 
+}
+
+.tright {
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 20px;
+    right: 0px;
+    top: -23px;
+    padding: 15px 9px;
+}
+
+#apps {
+    position: absolute;
+    top: 12px;
+    width: 24px;
+    height: 24px; 
+}
+
+#alerts {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 65px;
+    border-radius: 50%; 
+}
+
+#signin {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+
+/* LOGO & SEARCHBOX */
+
+.mainbox {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -350px; 
+}
+
+.logo img {
+    position: absolute;
+    width: 280px;
+    height: 115px;
+    top: 95px;
+    left: 50%;
+    margin-left: -140px;
+    padding: 15px;   
+}
+
+#search {
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    left: 50%;
+    margin-left: -240px;
+    top: 240px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0px 1px 10px rgb(209, 209, 209);
+    border: 1px solid rgb(204, 203, 203);
+}
+
+.mic img {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    left: 81%;
+    top: 254px;
+}
+
+.buttons {
+    position: absolute;
+    display: inline-block;
+    width: 280px;
+    left: 50%;
+    margin-left: -140px;
+    top: 310px; 
+}
+
+#lucky, #googlesearch{
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 2px;
+    margin: 4px;
+    font-weight: 800;
+    color: rgb(129, 127, 127);
+    background-color: rgb(237, 237, 238);
+    border: none;
+}
+
+/* FOOTER */
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    background-color: rgb(237, 237, 238);
+    border-top: 1px solid rgb(237, 237, 238);  
+}
+
+.blist a {
+    color: rgb(83, 83, 83);
+}
+
+.bottom li {
+    display: inline;
+    padding: 8px;
+}
+
+.bleft {
+    float: left;
+    position: relative;
+    bottom: 5px; 
+    left: -25px; 
+}
+
+.bright{
+    float: right;
+    position: relative;
+    bottom: 5px; 
+    right: 15px; 
+}
